@@ -1,3 +1,220 @@
+/* fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Variables */
+
+:root {
+    --blue-text: rgb(33, 150, 243, 1);
+    --paragraph-color: rgb(117, 117, 117, 1);
+    --principal-color: rgb(33, 33, 33, 1);
+    --white-font: rgb(255, 255, 255, 1);
+    --background-banner: rgb(47, 48, 58, 1);
+    --section-team: rgb(245, 244, 250, 1);
+}
+
+/*  BODY  */
+
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--principal-color);
+}
+
+/* WEBSTUDIO LOGO*/
+
+.icon-wb {
+    color: var(--blue-text);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* NAVEGATION BAR */
+
+.navegation-bar .navegation-link {
+    color: var(--principal-color);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navegation-bar .navegation-link:hover {
+color: var(--blue-text);
+}
+
+.navegation-bar .navegation-link:focus {
+color: var(--blue-text);
+}
+
+.navegation-item{
+    list-style: none;
+}
+
+/* NAVEGATION BAR - CONTACTS */
+
+.contact .contact-link {
+    color: var(--paragraph-color);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact .contact-link:hover{
+    color: var(--blue-text);
+}
+
+.contact .contact-link:focus {
+    color: var(--blue-text);
+}
+
+.contact-element{
+    list-style: none;
+}
+
+/* BANNER */
+
+.banner .main-title{
+    color: var(--white-font);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner {
+    background-color: var(--background-banner);
+}
+
+.banner .request-button {
+    color: var(--white-font);
+    background-color: var(--blue-text);
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+/* ABOUT US */
+
+.about-list .about-title{
+  font-size: 14px;
+  font-weight: 700;
+  text-transform:uppercase ;  
+}
+
+.about-list .about-text {
+    color: var(--paragraph-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.about-item{
+    list-style: none;
+}
+
+/* GALERY SERVICES */
+
+.our-service .service-tittle{ 
+font-size: 36px;
+font-weight: 700;
+text-align: center;
+}
+
+.service-item {
+    list-style: none;
+}
+
+/* OUR TEAM */
+
+.our-team .team.title{
+    background-color: var(--section-team);
+   font-size: 36px;
+   font-weight: 700; 
+   align-items: center;
+}
+
+.team-list .team-name {
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.team-item .team-position {
+    color: var(--paragraph-color);
+    font-size: 16px;
+}
+.team-item {
+    list-style: none;
+}
+
+/* FOOTER */
+.footer-final{
+    background-color: var(--background-banner);
+}
+.footer-text{
+    color: var(--white-font);
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-info .footer-item{
+    color: var(--paragraph-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-item{
+    list-style: none;
+}
+
+.icon-two{
+    color: var(--blue-text);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/*      PORTAFOLIO - HTML      */
+/* BUTTONS*/
+
+.navegation-buttons .button-nav{
+font-weight: 500;
+font-size: 16px;
+height: 38px;
+border-radius: 4px;
+border: transparent;
+cursor: pointer;
+}
+
+.navegation-buttons .button-nav:hover{
+    color: var(--white-font);
+    background-color: var(--blue-text);
+}
+
+.navegation-buttons .button-nav:focus{
+    color: var(--white-font);
+    background-color: var(--blue-text);
+}
+
+.button-item{
+    list-style: none;
+}   
+
+/*GALERY PROYECT LIST*/
+
+.proyect-list .galery-title{
+   font-size: 18px;
+   font-weight: 700; 
+}
+
+.proyect-list .galery-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+}
+.proyect-item{
+    list-style: none;
 }
